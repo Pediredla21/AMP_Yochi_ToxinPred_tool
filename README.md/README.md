@@ -16,16 +16,11 @@ This makes AMP Yochi not just a model — **a complete peptide-design tool**.
 
 ---
 
-##  Project Demo (UI + Predictions)
+## Project Demo (How AMP Yochi Looks)
 
-<details>
-<summary><b>Click to open demo video</b></summary>
-
-<br>
+Here is a short demonstration showing how the AMP Yochi interface and predictions work:
 
 https://github.com/user-attachments/assets/17c98256-9869-4499-b505-c026e6ba53d6
-
-</details>
 
 
 ---
@@ -137,6 +132,7 @@ cd AMP_Yochi
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+
 
 
 
