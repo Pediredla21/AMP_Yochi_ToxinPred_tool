@@ -53,14 +53,14 @@ A heatmap-like per-residue bar that shows:
 - Local risk patterns  
 - The “shape” of toxicity within the sequence  
 
-## 🔁 3. Residue Swap Suggestions
+## 3. Residue Swap Suggestions
 Based on model gradients + residue frequencies:
 
 - Suggests **1-letter substitutions** to reduce toxicity
 - Predicts new toxicity probability after swap
 - Only gives **biologically reasonable** substitutions
 
-## 📈 4. Probability Calibration
+##  4. Probability Calibration
 - Uses **isotonic regression** for calibrated predicted probabilities  
 - Ensures the toxicity score is **trustworthy**, not arbitrary  
 
@@ -70,6 +70,13 @@ Based on model gradients + residue frequencies:
 - Modern React UI (Lovable) with ribbon + swap visualization
 
 ---
+#  Dataset
+
+This project is trained on curated peptide toxicity data derived from **ToxinPred 3.0**, containing experimentally validated toxic and non-toxic peptide sequences.
+
+The dataset was cleaned, standardized, and split into:
+- train_pos / train_neg  
+- test_pos / test_neg  
 
 
 ---
@@ -120,6 +127,7 @@ cd AMP_Yochi
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+
 
 
 
