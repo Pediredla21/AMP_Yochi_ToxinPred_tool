@@ -1,15 +1,3 @@
-<!-- ========================================================= -->
-<!--                    AMP YOCHI – README                     -->
-<!-- ========================================================= -->
-
-<p align="center">
-  <img src="https://svg-banners.vercel.app/api?type=origin&text1=AMP%20YOCHI%20⚡%20Peptide%20Toxicity%20Predictor&width=1200&height=300" />
-</p>
-
-<h2 align="center">🔬 Explainable Peptide Toxicity Prediction • Residue-Level Scoring • Smart Swap Recommendations</h2>
-<p align="center">
-  <b>Created by: Bhavani Pediredla</b>
-</p>
 
 ---
 
@@ -29,13 +17,6 @@ This makes AMP Yochi not just a model — **a complete peptide-design tool**.
 ---
 
 #  **Project Demo (Video)**  
-Upload the `.mov` file to your GitHub repo under:
-
-
-Then the video appears below automatically:
-
- **Click to watch the full demo:**  
-https://github.com/<your-username>/<your-repo>/raw/main/assets/demo.mov
 
 ---
 
@@ -139,6 +120,7 @@ cd AMP_Yochi
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+
 
 
 
