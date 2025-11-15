@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Models (large files)
+models/*.joblib
+
+# Data artifacts (optional, keep only raw if you want)
+data/processed/*.npy
+data/processed/*.csv
+data/processed/*.png
+
+# Node / frontend
+node_modules/
+dist/
