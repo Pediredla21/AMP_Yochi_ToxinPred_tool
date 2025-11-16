@@ -126,12 +126,13 @@ The model is slightly conservative (prefers fewer false positives), which is ide
 
 ##  Clone Repo & Setup Environment
 ```bash
-git clone https://github.com/<your-username>/AMP_Yochi.git
+git clone https://github.com/Pediredla21/AMP_Yochi.git
 cd AMP_Yochi
 
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+
 
 
 
